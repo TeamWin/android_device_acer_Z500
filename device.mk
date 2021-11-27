@@ -10,6 +10,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/kernel:kernel \
     $(LOCAL_PATH)/recovery/sbin/healthd:root/sbin/healthd
 
-$(call inherit-product, build/target/product/full.mk)
+$(call inherit-product, build/target/product/embedded.mk)
 
 PRODUCT_NAME := Z500
